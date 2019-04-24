@@ -1,0 +1,7 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/Temp
+/.vs/NinjaRunner/v16/Server/sqlite3
+*.suo
