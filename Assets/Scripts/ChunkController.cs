@@ -25,18 +25,10 @@ public class ChunkController : MonoBehaviour
     [SerializeField]
     GameObject difficult;
 
-
-    //PlayerController playerController;
-
     void Start()
     {
 
         SetDifficulty();
-    }
-
-    void Update()
-    {
-
     }
 
     //Momento en el que el player llega al final del chunk actual. 

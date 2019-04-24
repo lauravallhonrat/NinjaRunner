@@ -53,7 +53,7 @@ public class LevelController : MonoBehaviour {
 
             Instantiate(villageChunks[0], lastChunkPosition, Quaternion.identity);
 
-            //Update chunnk positions
+            //Update chunk positions
             int chunkSize = villageChunks[0].GetComponent<ChunkController>().chunkSize;
             lastChunkPosition += transform.forward * 10 * chunkSize - (transform.forward * 5);
         }
